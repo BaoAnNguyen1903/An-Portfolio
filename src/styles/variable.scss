@@ -1,0 +1,73 @@
+// $grey-100: #eee;
+
+$light-theme: (
+    background-body: #fff,
+    background-body-tertiary : #f8f9fa,
+    scroll-track-background: "#fff",
+    scroll-thumb-background: "#ccc",
+    scroll-thumb-hover: "#9e9e9e",
+    brand-name-100: #0d1224,
+    brand-name-200: #ec4899,
+    brand-social:#ec4899,
+    border-hero-right: #eee,
+    background-hero-right: "linear-gradient(to right, #fff, #eee)",
+    border-top-hero-right: "linear-gradient(to right, transparent, #fff, #fff, transparent)",
+    text-red-500: #f96f73,
+    text-yellow-500: #fa9348,
+    text-green-500: #b6f9d2,
+    text-green-700: #56b10e,
+    text-pink-100: #ec4899,
+    text-pink-200: #bd21b8,
+    text-blue-100: #1dd2ec,
+    text-white: #000,
+    line-blue-500: #1a1443,
+    resize-button: "linear-gradient(to right, #ec4899, #8b5cf6)",
+    glow-card-background: #f5f6f7,
+    skill-card-background: #f5f6f7,
+    border-top-skill-card: "linear-gradient(to right, transparent, #fff, #fff, transparent)",
+);
+
+$dark-theme: (
+    background-body: #0d1224,
+    background-body-tertiary : transparent,
+    scroll-track-background: "#0d1224",
+    scroll-thumb-background: "#606060",
+    scroll-thumb-hover: "#d6d6d6",
+    brand-name-100: #16f2b3,
+    brand-name-200: #ec4899,
+    brand-social: #ec4899,
+
+    border-hero-right: #1b2c68a0,
+    background-hero-right: "linear-gradient(to right, #0d1224, #0a0d37)",
+    border-top-hero-right: "linear-gradient(to right, transparent, #ec4899, #8b5cf6, transparent)",
+
+    text-red-500: #f96f73,
+    text-yellow-500: #fa9348,
+    text-green-500: #b6f9d2,
+    text-green-700: #56b10e,
+    text-pink-100: #ec4899,
+    text-pink-200: #bd21b8,
+    text-blue-100: #1dd2ec,
+    text-white: #fff,
+
+    line-blue-500: #1a1443,
+    resize-button: "linear-gradient(to right, #ec4899, #8b5cf6)",
+
+    glow-card-background: #101123,
+    skill-card-background: #11152c,
+    border-top-skill-card: "linear-gradient(to right, transparent,#8b5cf6, #8b5cf6, transparent)",
+
+
+);
+
+:root {
+    @each $name, $color in $light-theme {
+        --#{$name}: #{$color};
+    }
+}
+
+[data-bs-theme="dark"] {
+    @each $name, $color in $dark-theme {
+        --#{$name}: #{$color};
+    }
+}

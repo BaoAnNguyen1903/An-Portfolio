@@ -1,0 +1,219 @@
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4,
+    7: $spacer * 5,
+);
+// @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import 'bootstrap/scss/bootstrap.scss';
+@import './animation.scss';
+@import "./variable.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.brand-green {
+    color: var(--brand-name-100);
+}
+
+.brand-red {
+    color: var(--brand-name-200);
+}
+
+a {
+    &.highlight {
+        color: var(--brand-social);
+    }
+
+}
+
+
+body {
+    background-color: var(--background-body);
+    // font-family: "Raleway", serif !important;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-body-tertiary {
+    background-color: var(--background-body-tertiary) !important;
+}
+
+.text-pink-100 {
+    color: var(--text-pink-100);
+}
+
+.text-pink-200 {
+    color: var(--text-pink-200);
+}
+
+.text-yellow-500 {
+    color: var(--text-yellow-500);
+}
+
+.text-red-500 {
+    color: var(--text-red-500);
+}
+
+.text-green-700 {
+    color: var(--text-green-700);
+}
+
+.text-blue-100 {
+    color: var(--text-blue-100);
+}
+
+.text-white-0 {
+    color: var(--text-white);
+}
+
+.resize-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 9999px;
+    background-image: var(--resize-button);
+    padding: 15px 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+
+    &:hover {
+        gap: 10px;
+        text-decoration: none;
+    }
+}
+
+.divider {
+    height: 1px;
+    border-top: 1px solid var(--border-hero-right);
+}
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--scroll-track-background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb-background);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-thumb-hover);
+    border-radius: 12px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+.project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+    cursor: pointer;
+}
+
+.project-card-view {
+    box-shadow: 0 3px 3px 3px var(--border-hero-right);
+    color: var(--text-white);
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+
+    &:hover {
+        border-color: var(--brand-social);
+    }
+}
+
+
+.blog-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+}
+
+// .blog-card-view {
+//     background-color: transparent !important;
+//     box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+//     color: white !important;
+//     transition: all 0.5s ease 0s !important;
+//     height: 100% !important;
+// }
+
+// .blog-link {
+//     color: white !important;
+//     text-decoration: none !important;
+// }
+
+// .blog-link:hover {
+//     cursor: pointer !important;
+// }
+
+// .blog-card-view:hover {
+//     transform: scale(1.02) !important;
+//     overflow: hidden !important;
+//     box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+// }
+
+// .card-img-top {
+//     padding: 20px !important;
+//     opacity: 0.8 !important;
+//     border-radius: 10px !important;
+// }
+
+// .blog-img {
+//     padding: 0px !important;
+//     opacity: 0.8 !important;
+//     border-radius: 0px !important;
+// }
+
+// .btn-primary {
+//     color: #fff !important;
+//     background-color: #623686 !important;
+//     border-color: #623686 !important;
+// }
+
+// .btn-primary:hover {
+//     color: #fff !important;
+//     background-color: #6d20c5d7 !important;
+//     border-color: #6d20c5d7 !important;
+// }
+
+// .btn:focus {
+//     outline: none !important;
+//     box-shadow: none !important;
+// }
+
+// .project-heading {
+//     color: white !important;
+//     font-size: 2.3em !important;
+//     font-weight: 500 !important;
+//     padding-top: 10px !important;
+// }

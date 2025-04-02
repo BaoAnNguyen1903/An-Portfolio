@@ -1,0 +1,48 @@
+{
+    "appHeader": {
+        "brand": "An Nguyen",
+        "home": "Home",
+        "project": "Project",
+        "contact": "Contact",
+        "about": "About"
+    },
+    "heroSection": {
+        "exp": "My Skill",
+        "cv": "Get Resume"
+    },
+    "introSection": {
+        "about": "About me",
+        "and": "and",
+        "heading1": "I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️",
+        "heading2": "I am fluent in classics like",
+        "heading3": "My field of Interest's are building new",
+        "heading4": "Web Technologies and Products",
+        "heading5": "Whenever possible, I also apply my passion for developing products with"
+    },
+    "experience": {
+        "title": "Experiences"
+    },
+    "skill": {
+        "title": "Skills"
+    },
+    "about": {
+        "title1": "Know Who ",
+        "title2": "I AM",
+        "heading1": "Hi Everyone, I am Nguyen Dinh Bao An from Da Nang, VietNam.",
+        "heading2": "I am a third year student at FPT University, majoring in Information Technology.",
+        "heading3": "I focus on interactive web programming, including FrontEnd, BackEnd and Database development. My short term goal is to develop my expertise in the IT field.",
+        "heading4": "My long term goal is to become an expert in web development, contributing to large and innovative projects.",
+        "heading5": "Apart from coding, some other activities that I love to do!",
+        "heading6": "Playing Games",
+        "heading7": "Playing Football",
+        "heading8": "Wactching Movie",
+        "edu1": "EDUCATION",
+        "edu2": "Software Engineer",
+        "edu3": "Da Nang FPT University (FPTU)",
+        "contact": "Contact Me",
+        "find": "FIND ME ON"
+    },
+    "project": {
+        "heading": "Here are a few projects I've worked on recently"
+    }
+}

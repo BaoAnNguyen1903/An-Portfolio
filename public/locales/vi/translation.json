@@ -1,0 +1,48 @@
+{
+    "appHeader": {
+        "brand": "Ân Nguyễn",
+        "home": "Trang chủ",
+        "project": "Dự án",
+        "contact": "Liên hệ",
+        "about": "Về tác giả"
+    },
+    "heroSection": {
+        "exp": "Kinh nghiệm",
+        "cv": "Tải Resume"
+    },
+    "introSection": {
+        "about": "Giới thiệu",
+        "and": "và",
+        "heading1": "Yêu đơn phương lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
+        "heading2": "Tôi nắm vững các ngôn ngữ huyền thoại như là",
+        "heading3": "Lĩnh vực quan tâm của tôi là",
+        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
+        "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
+    },
+    "experience": {
+        "title": "Kinh nghiệm làm việc"
+    },
+    "skill": {
+        "title": "Kỹ năng"
+    },
+    "about": {
+        "title1": "Tôi là ",
+        "title2": "AI",
+        "heading1": "Chào mọi người, Tôi là Nguyễn Đình Bảo Ân đến từ Đà Nẵng, Việt Nam.",
+        "heading2": "Tôi là sinh viên năm thứ 3 của trường Đại học FPT, chuyên ngành Công nghệ thông tin.",
+        "heading3": "Tôi tập trung vào lập trình trang web tương tác, bao gồm phát triển FrontEnd, BackEnd và Cơ sở dữ liệu. Mục tiêu ngắn hạn của tôi là phát triển chuyên môn của mình trong lĩnh vực Công nghệ thông tin.",
+        "heading4": "Mục tiêu dài hạn của tôi là trở thành chuyên gia trong lĩnh vực phát triển web, đóng góp vào các dự án lớn và sáng tạo.",
+        "heading5": "Ngoài việc lập trình, tôi còn thích làm một số hoạt động khác!",
+        "heading6": "Chơi game",
+        "heading7": "Đá banh",
+        "heading8": "Xem phim",
+        "edu1": "GIÁO DỤC",
+        "edu2": "CÔNG NGHỆ THÔNG TIN",
+        "edu3": "Đại học fpt đà nẵng (FPTU)",
+        "contact": "Liên hệ với tôi",
+        "find": "TÌM KIẾM TÔI TRÊN"
+    },
+    "project": {
+        "heading": "Dưới đây là một vài dự án gần đây của tôi"
+    }
+}

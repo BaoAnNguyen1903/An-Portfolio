@@ -1,14 +1,14 @@
 import { Outlet } from "react-router-dom"
-import Header from "./components/layout/app.footer"
-import Footer from "./components/layout/app.header"
+import AppHeader from "./components/layout/app.header"
+import AppFooter from "./components/layout/app.footer"
 
 
 function Layout() {
   return (
     <div>
-      <Header />
+      <AppHeader />
       <Outlet />
-      <Footer />
+      <AppFooter />
     </div>
   )
 }
