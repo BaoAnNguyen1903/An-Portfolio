@@ -5,7 +5,7 @@ interface IAppContext {
     setTheme: (v: ThemeContextType) => void;
 }
 
-type ThemeContextType = "light" | "dark";
+type ThemeContextType = "dark" | "light";
  
 const AppContext = createContext<IAppContext | null>(null);
 
