@@ -72,7 +72,7 @@ import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg';
 import webix from '../assets/svg/skills/webix.svg';
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg';
 import wordpress from '../assets/svg/skills/wordpress.svg';
-import antd from '../assets/svg/skills/antd.svg';
+import antd from '../assets/svg/skills/ant-design.svg';
 import postman from '../assets/svg/skills/postman.svg';
 
 export const skillsImage = (skill: string) => {
