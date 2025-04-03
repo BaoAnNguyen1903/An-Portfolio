@@ -10,7 +10,7 @@ import { NavDropdown } from 'react-bootstrap';
 import viFlag from '../../assets/svg/language/vi.svg';
 import enFlag from '../../assets/svg/language/en.svg';
 
-type ThemeContextType = "light" | "dark";
+type ThemeContextType = "dark" | "light";
 
 
 function AppHeader() {
