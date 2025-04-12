@@ -23,7 +23,7 @@ const Project = () => {
                 </Col>
             </Row>
             <Row
-                style={{ justifyContent: "center", paddingBottom: "10px" }}
+                    
             >
                 {PROJECTS?.map(item => {
                     return (
