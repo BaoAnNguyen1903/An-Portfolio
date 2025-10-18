@@ -1,11 +1,11 @@
 import nodejs from "../assets/project/nodejs.jpg";
-import antinCinema from "../assets/project/antin-cinema.png";
+import image from "../assets/project/image.png";
 import sanchoi247 from "../assets/project/sanchoi247.png";
 
 export const APP_DATA = {
   GITHUB_URL: "https://github.com/BaoAnNguyen1903",
   LINKEDIN_URL: "https://www.linkedin.com/in/nguyen-dinh-bao-an/",
-  FACEBOOK_URL: "https://www.facebook.com/an.nguyen.151562",
+  FACEBOOK_URL: "https://www.facebook.com/nguyendinhbaoan1903",
   INSTAGRAM_URL: "https://www.instagram.com/_annguyen19_/"
 };
 
@@ -72,12 +72,12 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    imgPath: antinCinema,
-    title: "Antin Cinema BackEnd",
+    imgPath: image,
+    title: "Kicks Shoes",
     description:
-      "Antin Cinema. Which is a movie ticket booking website using stateless model. This project is designed to provide users with a seamless experience in browsing movie schedules, selecting seats, and making online payments. I am developing it using Spring Boot for the backend. Ensuring a dynamic and responsive user interface with a robust.",
-    githubLink: "https://github.com/BaoAnNguyen1903/Antin-Cinema-BE-SpringBoot",
-    demoLink: "https://github.com/BaoAnNguyen1903/Antin-Cinema-BE-SpringBoot"
+      "Kicks Shoes is a web-based e-commerce platform designed to streamline the process of discovering, purchasing, and managing shoe orders from various sellers. The system supports multiple user roles—including Guests, Customers, Shop Owners, and Admins—and aims to deliver a smooth, engaging, and secure shopping experience.",
+    githubLink: "https://github.com/KickLabs",
+    demoLink: "https://github.com/KickLabs"
   },
   // {
   //     id: 3,
@@ -88,15 +88,13 @@ export const PROJECTS = [
   //     demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html"
   // },
   {
-    id: 44,
+    id: 3,
     imgPath: nodejs,
     title: "Fullstack Backend NodeJS",
     description:
       "This project is designed to help me gain hands-on experience with Node.js as a backend technology, specifically focusing on building RESTful APIs using Express.js and examining the pros and cons of using SQL and NoSql. I also differentiate between backend and frontend separation. The goal is to understand the core concepts of backend development.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html"
+    githubLink: "https://github.com/BaoAnNguyen1903/Fullstack-Backend-NodeJS",
+    demoLink: "https://github.com/BaoAnNguyen1903/Fullstack-Backend-NodeJS"
   }
 ];
 

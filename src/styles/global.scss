@@ -9,7 +9,6 @@ $spacers: (
     6: $spacer * 4,
     7: $spacer * 5,
 );
-// @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import 'bootstrap/scss/bootstrap.scss';
 @import './animation.scss';
 @import "./variable.scss";
@@ -37,9 +36,6 @@ a {
 
 body {
     background-color: var(--background-body);
-    // font-family: "Raleway", serif !important;
-    // -webkit-font-smoothing: antialiased;
-    // -moz-osx-font-smoothing: grayscale;
 }
 
 .bg-body-tertiary {
