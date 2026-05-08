@@ -1,6 +1,7 @@
 import nodejs from "../assets/project/nodejs.jpg";
 import image from "../assets/project/image.png";
 import sanchoi247 from "../assets/project/sanchoi247.png";
+import vicsports from "../assets/project/vicsports.png";
 
 export const APP_DATA = {
   GITHUB_URL: "https://github.com/BaoAnNguyen1903",
@@ -95,6 +96,15 @@ export const PROJECTS = [
       "This project is designed to help me gain hands-on experience with Node.js as a backend technology, specifically focusing on building RESTful APIs using Express.js and examining the pros and cons of using SQL and NoSql. I also differentiate between backend and frontend separation. The goal is to understand the core concepts of backend development.",
     githubLink: "https://github.com/BaoAnNguyen1903/Fullstack-Backend-NodeJS",
     demoLink: "https://github.com/BaoAnNguyen1903/Fullstack-Backend-NodeJS"
+  },
+  {
+    id: 4,
+    imgPath: vicsports,
+    title: "Vic Sports",
+    description:
+      "Vic Sports is a full-stack sports facility booking platform developed to explore modern web application architecture using ReactJS, NodeJS, ExpressJS, and MongoDB. The project focuses on building scalable RESTful APIs, implementing frontend and backend separation, and creating a seamless user experience for discovering venues, scheduling matches, and managing field reservations.",
+    githubLink: "https://github.com/Vic-Sports",
+    demoLink: "https://github.com/Vic-Sports"
   }
 ];
 
