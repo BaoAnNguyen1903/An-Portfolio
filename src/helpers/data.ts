@@ -2,6 +2,7 @@ import nodejs from "../assets/project/nodejs.jpg";
 import image from "../assets/project/image.png";
 import sanchoi247 from "../assets/project/sanchoi247.png";
 import vicsports from "../assets/project/vicsports.png";
+import gzmart from "../assets/project/gzmart.png";
 
 export const APP_DATA = {
   GITHUB_URL: "https://github.com/BaoAnNguyen1903",
@@ -105,6 +106,15 @@ export const PROJECTS = [
       "Vic Sports is a full-stack sports facility booking platform developed to explore modern web application architecture using ReactJS, NodeJS, ExpressJS, and MongoDB. The project focuses on building scalable RESTful APIs, implementing frontend and backend separation, and creating a seamless user experience for discovering venues, scheduling matches, and managing field reservations.",
     githubLink: "https://github.com/Vic-Sports",
     demoLink: "https://github.com/Vic-Sports"
+  },
+  {
+    id: 5,
+    imgPath: gzmart,
+    title: "GZMart",
+    description:
+      "GZMart is a comprehensive B2C e-commerce platform integrated with a Mini-ERP system, built for cross-border fashion retail. Developed as a graduation capstone project (SEP490) using ReactJS, Node.js, Express, and MongoDB, the platform supports multiple user roles — Buyer, Seller, and Admin — with standout features including AI-powered image search, AI chatbot (Gemini), real-time Flash Sales, live streaming shopping via LiveKit, purchase order and inventory management, landed cost calculation, and PayOS payment integration.",
+    githubLink: "https://github.com/GZMart",
+    demoLink: "https://github.com/GZMart"
   }
 ];
 
