@@ -39,8 +39,8 @@ export const EXPERIENCES = [
       en: "Fullstack internship at FPT software company"
     },
     duration: {
-      vi: "Tháng 1/2025 - Tháng 5/2025",
-      en: "Jan 2025 - May 2025"
+      vi: "Tháng 1/2025 - Tháng 11/2025",
+      en: "Jan 2025 - Nov 2025"
     }
   },
   {
